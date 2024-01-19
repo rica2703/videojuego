@@ -1,0 +1,246 @@
+.seccionPromocion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.promocionContenedor {
+    background-color: #F2F2F2;
+    padding: 5em;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #707070;
+}
+
+.seccionPromocion #pLargo {
+    width: 40%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.caracteristicasPrincipales {
+    background-color:#F2F2F2;
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 1em;
+    font-family: "Lato", sans-serif;
+}
+
+.caracteristicasPrincipales #textoLargo {
+    width: 80%;
+}
+
+.seccionCaracteristicas {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenCaracteristicas {
+    width: 100%;
+    padding: 1em;
+}
+.seccionCaracteristicasJuego{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.tarjetaCaracteristicas {
+    background-color: #F2F2F2;
+    width: 60%;
+    height: 14em;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+.destacadosGris {
+    
+    background-color: #EFEFEF;
+}
+
+.piePaginaTienda {
+    width: 100%;
+    background-color: #707070;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plataformaItem {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.listaPlataformas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+}
+
+.modoJuegoItem {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.listaModosJuego {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+}
+
+
+.tarjetaJuegoDestacado {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.simulacionImagen {
+    background-color: #F2F2F2;
+    height: 10em;
+    margin-bottom: 1em;
+    /* padding: 5em; */
+}
+
+.piePaginaTienda {
+    width: 100%;
+    background-color: #707070;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.columnaPiePagina {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+    text-align: start;
+}
+.columnaPiePagina #imgblack{
+    width:50%;
+}
+
+.columnaPiePagina img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1em;
+}
+
+.piePaginaTienda p {
+    margin: 0.5em 0;
+}
+
+header {
+    padding-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botonAgregarLista {
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.botonAgregarLista:hover {
+    background-color: #210f94;
+    color: rgb(0, 0, 0);
+}
+
+.carruselJuegos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardJuegosDestacados {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.3em;
+    padding-bottom: 0.2em;
+    color: rgb(0, 0, 0);
+    margin: 1em;
+    width: 25%;
+}
+
+.simulacionImg {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 10em;
+}
+
+.footerTienda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EEEEEE;
+    padding: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: #707070;
+    padding: 2em;
+}
+
+.columnaFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left: 2em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+.imgSiguiente{
+    width: 1em;
+}
+
+.tituloJuegosDestacados{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    background-color: #EFEFEF;
+    align-items: center;
+}
